@@ -77,6 +77,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="4Ly-WA-oZD" id="Vb9-BI-bFX"/>
+                        <outlet property="cityLabel" destination="B8Z-gq-YAq" id="AqS-eW-4nr"/>
+                        <outlet property="conditionLabel" destination="Tv7-8o-gvT" id="bwl-Be-RyY"/>
+                        <outlet property="dayLabel" destination="rdJ-rt-WiW" id="0vT-5y-Ppo"/>
+                        <outlet property="weatherImageView" destination="rbz-Zo-ztH" id="nG7-AX-fjQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
